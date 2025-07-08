@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="dyros_cmake" exec="dyros_cpp_pub" name="dyros_cpp_pub"/>
+    <node pkg="dyros_cmake" exec="dyros_cpp_sub" name="dyros_cpp_sub"/>
+</launch>
